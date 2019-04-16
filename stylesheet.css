@@ -1,0 +1,27 @@
+.input {
+    flex: 1 1 55%;
+    margin: 2px;
+}
+
+.label {
+    flex: 1 1 55%;
+    margin: 2px;
+}
+
+#container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#output {
+    flex: 2 1 55%;
+    margin: 2px;
+}
+
+h1 {
+    color: green;
+}

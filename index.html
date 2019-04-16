@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Strix Ultimate Choice Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="strix.js"></script>
+</head>
+
+<body>
+    <h1>Calculate which ultimate for Strix is the best choice!</h1>
+    <div id="container">
+        <div class="label"><span>Enter damage</span></div>
+        <div class="input"><input autofocus type="text" name="damageInput" id="damageInput" required placeholder="example 12.00e24"></div>
+        <div class="label"> <span>Attack cooldown</span></div>
+        <div class="input"><input type="text" name="cooldownInput" id="cooldownInput" required placeholder="example 6.5"> </div>
+        <div class="input"><button type="submit" name="subButton" id="subButton" onclick="press()">Calculate!</button> </div>
+        <div id="output">
+            <p id="result"></p>
+        </div>
+    </div>
+
+
+</body>
